@@ -26,14 +26,24 @@ h1 {
 }
 
 img {
-  max-width: 500px;
+  max-width: 250px;
 }
+
+a {
+  color: #281b2d;
+}
+
+a:hover {
+  color: #fff;
+}
+
 .subhead {
   color: #fcd801;
   font-size: 48px;
   background-color: #281b2d;
   border-bottom: 5px solid #00c54c;
   padding: 20px;
+  margin-top: 0;
 }
 
 .white-text {
@@ -43,4 +53,28 @@ img {
 .container {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0 20px;
+}
+
+.columns {
+  display: flex;
+}
+
+.main-content {
+  width: 65%;
+  margin-right: 5%;
+}
+
+.sidebar {
+  width: 30%;
+  background: #9ae84f;
+  padding: 15px;
+}
+
+.source p {
+  font-size: 12px;
+}
+
+.col-right {
+  margin-left: 25px;
 }
