@@ -24,3 +24,11 @@ h1 {
   font-size: 72px;
   margin-top: 0;
 }
+
+.subhead {
+  color: #fcd801;
+  font-size: 48px;
+  background-color: #281b2d;
+  border-bottom: 5px solid #00c54c;
+  padding: 20px;
+}
