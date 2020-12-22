@@ -69,6 +69,10 @@ a:hover {
   width: 30%;
   background: #9ae84f;
   padding: 15px;
+  -webkit-box-shadow: 22px 17px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 22px 17px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 22px 17px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-top: 20px;
 }
 
 .source p {
@@ -77,4 +81,8 @@ a:hover {
 
 .col-right {
   margin-left: 25px;
+}
+
+.main-content {
+  margin-top: 20px;
 }
